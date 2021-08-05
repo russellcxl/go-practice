@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"git.garena.com/russell.chanxl/be-class/assignment_2/constants"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/database"
+	"github.com/russellcxl/go-practice/assignment_2/constants"
+	"github.com/russellcxl/go-practice/assignment_2/database"
 )
 
 // SetUserLeaveBalance action is 0 for approve, 1 for reject; check constants

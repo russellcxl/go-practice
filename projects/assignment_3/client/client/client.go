@@ -3,9 +3,9 @@ package client
 import (
 	"bufio"
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_3/client/client_controller"
-	pb "git.garena.com/russell.chanxl/be-class/assignment_3/protos"
-	tcp "git.garena.com/russell.chanxl/be-class/assignment_3/tcp_manager"
+	"github.com/russellcxl/go-practice/assignment_3/client/client_controller"
+	pb "github.com/russellcxl/go-practice/assignment_3/protos"
+	tcp "github.com/russellcxl/go-practice/assignment_3/tcp_manager"
 	"github.com/jedib0t/go-pretty/table"
 	"net"
 	"os"

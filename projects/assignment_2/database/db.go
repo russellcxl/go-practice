@@ -3,7 +3,7 @@ package database
 import (
 	"encoding/json"
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/models"
+	"github.com/russellcxl/go-practice/assignment_2/models"
 	"io/ioutil"
 	"log"
 	"os"
@@ -17,7 +17,7 @@ var Leaves []models.Leave
 
 var CurrentUser *models.User
 
-var path = "/Users/russell.chanxl/go/src/git.garena.com/russell.chanxl/be-class/assignment_2/assets/"
+var path = "/Users/russell.chanxl/go/src/github.com/russellcxl/go-practice/assignment_2/assets/"
 
 func InitDb() {
 

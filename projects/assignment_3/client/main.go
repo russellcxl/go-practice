@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_3/client/client"
+	"github.com/russellcxl/go-practice/assignment_3/client/client"
 	"os"
 )
 

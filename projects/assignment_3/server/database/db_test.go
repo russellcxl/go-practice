@@ -2,7 +2,7 @@ package database
 
 import (
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_3/protos"
+	"github.com/russellcxl/go-practice/assignment_3/protos"
 	"testing"
 	"time"
 )

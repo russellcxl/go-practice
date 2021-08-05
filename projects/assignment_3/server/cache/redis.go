@@ -3,7 +3,7 @@ package cache
 import (
 	"context"
 	"fmt"
-	pb "git.garena.com/russell.chanxl/be-class/assignment_3/protos"
+	pb "github.com/russellcxl/go-practice/assignment_3/protos"
 	"github.com/go-redis/redis/v8"
 	"google.golang.org/protobuf/proto"
 	"log"

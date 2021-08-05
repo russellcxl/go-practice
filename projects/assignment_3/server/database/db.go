@@ -2,7 +2,7 @@ package database
 
 import (
 	"fmt"
-	pb "git.garena.com/russell.chanxl/be-class/assignment_3/protos"
+	pb "github.com/russellcxl/go-practice/assignment_3/protos"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"log"

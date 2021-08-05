@@ -2,7 +2,7 @@ package controller
 
 import (
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/database"
+	"github.com/russellcxl/go-practice/assignment_2/database"
 	"github.com/jedib0t/go-pretty/table"
 )
 

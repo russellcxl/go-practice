@@ -1,10 +1,10 @@
 package server
 
 import (
-	pb "git.garena.com/russell.chanxl/be-class/assignment_3/protos"
-	"git.garena.com/russell.chanxl/be-class/assignment_3/server/cache"
-	"git.garena.com/russell.chanxl/be-class/assignment_3/server/server_controller"
-	tcp "git.garena.com/russell.chanxl/be-class/assignment_3/tcp_manager"
+	pb "github.com/russellcxl/go-practice/assignment_3/protos"
+	"github.com/russellcxl/go-practice/assignment_3/server/cache"
+	"github.com/russellcxl/go-practice/assignment_3/server/server_controller"
+	tcp "github.com/russellcxl/go-practice/assignment_3/tcp_manager"
 	"log"
 	"net"
 )

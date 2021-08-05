@@ -3,9 +3,9 @@ package prompts
 import (
 	"bufio"
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/controller"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/database"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/validations"
+	"github.com/russellcxl/go-practice/assignment_2/controller"
+	"github.com/russellcxl/go-practice/assignment_2/database"
+	"github.com/russellcxl/go-practice/assignment_2/validations"
 	"github.com/jedib0t/go-pretty/table"
 	"log"
 	"os"

@@ -2,8 +2,8 @@ package controller
 
 import (
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/database"
-	"git.garena.com/russell.chanxl/be-class/assignment_2/models"
+	"github.com/russellcxl/go-practice/assignment_2/database"
+	"github.com/russellcxl/go-practice/assignment_2/models"
 	"time"
 )
 

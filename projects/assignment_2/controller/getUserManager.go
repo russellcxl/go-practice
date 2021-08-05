@@ -1,6 +1,6 @@
 package controller
 
-import "git.garena.com/russell.chanxl/be-class/assignment_2/database"
+import "github.com/russellcxl/go-practice/assignment_2/database"
 
 func GetUsersManagerId(userid int) (managerId int) {
 	teamid := database.CurrentUser.TeamId

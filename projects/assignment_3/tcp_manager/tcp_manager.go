@@ -3,7 +3,7 @@ package tcp_manager
 import (
 	"bufio"
 	"encoding/binary"
-	pb "git.garena.com/russell.chanxl/be-class/assignment_3/protos"
+	pb "github.com/russellcxl/go-practice/assignment_3/protos"
 	"google.golang.org/protobuf/proto"
 	"log"
 	"net"

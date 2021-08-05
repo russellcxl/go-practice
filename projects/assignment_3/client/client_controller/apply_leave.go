@@ -2,9 +2,9 @@ package client_controller
 
 import (
 	"fmt"
-	"git.garena.com/russell.chanxl/be-class/assignment_3/client/util"
-	pb "git.garena.com/russell.chanxl/be-class/assignment_3/protos"
-	tcp "git.garena.com/russell.chanxl/be-class/assignment_3/tcp_manager"
+	"github.com/russellcxl/go-practice/projects/assignment_3/client/util"
+	pb "github.com/russellcxl/go-practice/projects/assignment_3/protos"
+	tcp "github.com/russellcxl/go-practice/projects/assignment_3/tcp_manager"
 	"google.golang.org/protobuf/proto"
 	"net"
 	"time"
