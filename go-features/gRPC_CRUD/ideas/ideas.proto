@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package protos;
+
+
+// run command $ protoc --go_out=plugins=grpc:$GOPATH/src *.proto
+option go_package = "git.garena.com/russell.chanxl/personal/gRPC_CRUD/ideas";
+
+message Idea {
+  User user_id = 1;
+  string title = 2;
+  string description = 3;
+}
+
+message User {
+  uint64  id = 1;
+}
+
+message IdeaResponse {
+  uint32 id = 1;
+}
+
+message Ideas {
+  repeated Idea ideas = 1;
+}
+
+service IdeaService {
+  rpc SubmitIdea(Idea) returns (IdeaResponse);
+  rpc GetIdeas(User) returns (Ideas);
+}
+
+
+

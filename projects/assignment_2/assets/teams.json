@@ -1,0 +1,21 @@
+[
+	{
+		"teamid": "100",
+		"team_name": "promotion",
+		"managerid": "3",
+		"member_ids": [
+			1,
+			2,
+			3,
+			5
+		]
+	},
+	{
+		"teamid": "200",
+		"team_name": "order",
+		"managerid": "4",
+		"member_ids": [
+			4
+		]
+	}
+]

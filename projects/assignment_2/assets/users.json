@@ -1,0 +1,50 @@
+[
+	{
+		"userid": "0",
+		"password": "123",
+		"name": "Admin",
+		"teamid": "0",
+		"role": "admin",
+		"leave_balance": "0"
+	},
+	{
+		"userid": "1",
+		"password": "123",
+		"name": "Mac",
+		"teamid": "100",
+		"role": "staff",
+		"leave_balance": "4"
+	},
+	{
+		"userid": "2",
+		"password": "123",
+		"name": "Mae",
+		"teamid": "100",
+		"role": "staff",
+		"leave_balance": "7"
+	},
+	{
+		"userid": "3",
+		"password": "123",
+		"name": "Jimmy",
+		"teamid": "100",
+		"role": "manager",
+		"leave_balance": "10"
+	},
+	{
+		"userid": "4",
+		"password": "123",
+		"name": "Lucy",
+		"teamid": "200",
+		"role": "manager",
+		"leave_balance": "10"
+	},
+	{
+		"userid": "5",
+		"password": "123",
+		"name": "Zizek",
+		"teamid": "100",
+		"role": "staff",
+		"leave_balance": "9"
+	}
+]

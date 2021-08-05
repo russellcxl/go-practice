@@ -1,0 +1,12 @@
+syntax = "proto3";
+package pb;
+
+option go_package = "/pb";
+
+message Request {
+  string data = 1;
+}
+
+message Response {
+  string data = 1;
+}

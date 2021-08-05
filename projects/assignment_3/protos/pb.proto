@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+package pb;
+
+// run `protoc --go_out=. protos/pb.proto` in root directory
+option go_package = "/protos";
+
+message User {
+  uint64 user_id = 1;
+  string password = 2;
+  string name = 3;
+  uint32 team_id = 4;
+  int32  role = 5;
+  uint32 leave_balance = 6;
+}
+
+message Leave {
+  uint64 leave_id = 1;
+  uint64 user_id = 2;
+  uint32 team_id = 3;
+  uint32 start_time = 4;
+  uint32 end_time = 5;
+  uint32 days_taken = 6;
+  int32  status = 7;
+  uint64 approver_id = 8;
+}
+
+message Leaves {
+  repeated Leave leaves = 1;
+}
+
+message Message {
+  Command command = 1;
+  bytes data = 2;
+  Error error = 3;
+}
+
+enum Error {
+  SUCCESS = 0;
+  INVALID_COMMAND = 1;
+  INVALID_USER_ID = 2;
+  LOGIN_CREDENTIALS_INVALID = 3;
+  FAILED_TO_SET_LEAVE = 4;
+  INVALID_PARAMS = 5;
+  FAILED_TO_CHECK_LOGIN = 6;
+  FAILED_TO_GET_LEAVES = 7;
+  FAILED_TO_SET_USER = 8;
+}
+
+enum Command {
+  UNKNOWN_METHOD = 0;
+  GET_USER_BY_ID = 1;
+  SET_USER = 2;
+  DELETE_USER = 3;
+  GET_LEAVE_APPLICATIONS_BY_USER_ID = 4;
+  GET_LEAVE_APPLICATIONS_BY_TEAM_ID = 5;
+  SET_LEAVE_APPLICATION = 6;
+  DELETE_LEAVE_APPLICATION = 7;
+  SET_USER_LEAVES = 8;
+  CHECK_USER_LOGIN = 9;
+  CLIENT_EXIT = 10;
+}
+
+enum UserRole {
+  ROLE_ADMIN = 0;
+  ROLE_STAFF = 1;
+  ROLE_MANAGER = 2;
+}
+
+enum LeaveStatus {
+  LEAVE_STATUS_PENDING = 0;
+  LEAVE_STATUS_APPROVED = 1;
+  LEAVE_STATUS_REJECTED = 2;
+}
